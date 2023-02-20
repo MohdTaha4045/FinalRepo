@@ -20,7 +20,7 @@ public class testTreatians extends TreatiansBaseClass
 {
 	
 
-	@Test(priority = 1) 
+	/*@Test(priority = 1) 
 	public void creatingNewUser() throws InterruptedException
 	{
 		Allure.step("SingnUp");
@@ -58,7 +58,7 @@ public class testTreatians extends TreatiansBaseClass
 		
 		System.out.println("Accound successfully Created");
 		driver.quit();
-	}
+	}*/
 	
 	/*@Test(priority = 1)
 	public void login() throws InterruptedException, IOException
@@ -92,7 +92,7 @@ public class testTreatians extends TreatiansBaseClass
 				return (loginData);
 	}
 	
-	@Test(dataProvider = "logindata", priority = 2)
+	@Test(dataProvider = "logindata", priority = 1)
 	public void loginTest1(String Email,String Password,String Exp) throws InterruptedException
 	{			
 		Allure.step("Sign In");
